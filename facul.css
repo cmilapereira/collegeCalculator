@@ -1,0 +1,40 @@
+body {
+  background-image:url("cal.jpg") ;
+  background-repeat: no-repeat;
+  background-size: 100% ;
+  font: normal 15px;
+  font-family: Cambria;
+}
+
+h1{
+  text-align: center;
+  color:white;
+
+}
+
+p{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Cambria;
+}
+
+section{
+  background-color: rgba(15, 8, 142, 0.671);
+  border-radius: 30px ;
+  padding: 50px;
+  width: 900px;
+  margin: auto;
+  color: rgb(33, 36, 192);
+  font-style: normal 30px georgia;
+  text-align: center;
+  box-shadow: 40px 5px 25px rgba(0, 183, 255, 0.269) ;
+
+}
+
+footer{
+  text-align: center;
+  color: rgb(21, 241, 201);
+  font-style: italic;
+
+}

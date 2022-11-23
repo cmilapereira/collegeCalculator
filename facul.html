@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora Camila S. Pereira</title>
+        <link rel="stylesheet" href="facul.css">
+    </head>
+<body>
+    <head>
+        <h1>JavaScript - Calculadora</h1>
+    </head>
+<section>
+<hr>
+
+<p>VALOR:</p>
+
+<input id="n1" value="5" />
+
+<p>VALOR:</p>
+
+<input id="n2" value="5" />
+
+</br></br>
+
+<button onclick="document.getElementById('ex13').innerHTML = calcula('+')">+</button>
+
+<button onclick="document.getElementById('ex13').innerHTML = calcula('-')">-</button>
+
+<button onclick="document.getElementById('ex13').innerHTML = calcula('*')">*</button>
+
+<button onclick="document.getElementById('ex13').innerHTML = calcula('/')">/</button>
+
+<p>RESULTADO:</p>
+
+<input id="ex13" value="0" />
+</section>
+<footer>
+    Camila de Souza Pereira - #Estudo de Caso#
+</footer>
+<script>
+
+function calcula(op) {
+
+  n1 = document.getElementById("n1").value;
+
+  n2 = document.getElementById("n2").value;
+
+  if (op == "+"){
+
+      document.getElementById('ex13').value = parseInt(n1) + parseInt(n2);
+
+  } else if (op == "-"){
+
+      document.getElementById('ex13').value = parseInt(n1) - parseInt(n2);
+
+  } else if (op == "*"){
+
+      document.getElementById('ex13').value = parseInt(n1) * parseInt(n2);
+
+  } else if (op == "/"){
+
+      document.getElementById('ex13').value = parseInt(n1) / parseInt(n2);
+
+  }
+
+}
+
+</script>
+
+</body>
+
+</html>
+
+ 
